@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(img/surf2.jpg);
+}
+
+nav{
+    background-color: white;
+    height: 100px;
+    width: 100%;
+}
+label.logo{
+    margin-left: 40px;
+}
+.logo{
+    font-family: 'Dancing Script', cursive;
+    font-size: 60px;
+    color: #163172;
+    line-height: 100px;
+    font-weight: bold;
+}
+
+.menu-1{
+    float: right;
+    margin-right: 50px;
+}
+
+.menu-1 li{
+    list-style: none;
+    display: inline-block;
+    font-size: 40px;
+    line-height: 100px;
+    font-family: 'Architects Daughter', cursive;
+    
+}
+.menu-1 li a{
+    color: #163172;
+    margin: 40px;
+    transition: ease-in-out .5s;
+}
+.menu-1 li a:hover{
+    transition: ease-in-out .5s;
+    color: #12e2a3;
+}
+
+.container{
+    width: 400px;
+    height: 400px;
+    margin-left: 7%;
+    margin-top: 6%;
+    background-color: white;
+}
+
+.box-color-1{
+    width: 400px;
+    height: 100px;
+    background-color: #163172;
+}
+p.cartita{
+    color: #163172;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Architects Daughter', cursive;
+}
+
+p.titulo{
+    color: white;
+    font-size: 30px;
+    font-family: 'Architects Daughter', cursive;  
+    align-items: center;
+    padding-top: 30;
+    padding-left: 110; 
+
+}
+
+.piso-1{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    color:#163172;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 20px;
+    padding-top: 25px;
+    padding-left: 40px;
+    overflow: hidden;
+}
+
+.sociales{
+   margin-left: 80%;
+   margin-top: 10%;
+   position: absolute;
+}
+
+.sociales li{
+list-style: none;
+display: inline-block;
+font-size: 40px;
+margin: 25px;
+color: #163172;
+transition: ease-in-out .5s;
+}
+
+.sociales li:hover{
+    color: #12e2a3;
+    transition: ease-in-out 0.s;
+}
